@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohan Jadhav |Cybersecurity Professional</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Rajdhani',sans-serif;
+    background:#050d1a;
+    color:white;
+    overflow-x:hidden;
+}
+
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:rgba(0, 0, 0, 0.6);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid #00ff7b;
+}
+
+header h1{
+    font-family:'Orbitron',sans-serif;
+    color:#00f0ff;
+    text-shadow:0 0 10px #ff00c3;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#2200ff;
+    text-shadow:0 0 10px #ff00d0;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:55px;
+    font-family:'Orbitron';
+    color:#00f0ff;
+    text-shadow:0 0 20px #00f0ff;
+}
+
+.typing{
+    font-size:22px;
+    margin-top:15px;
+    color:#00ffcc;
+}
+
+/* SECTIONS */
+.section{
+    padding:80px 10%;
+}
+
+.section h2{
+    font-family:'Orbitron';
+    font-size:35px;
+    margin-bottom:30px;
+    color:#00f0ff;
+    text-shadow:0 0 15px #00f0ff;
+    border-left:5px solid #00fffb;
+    padding-left:15px;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(0, 76, 255, 0.3);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 0 30px #f700ff;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    background:rgba(0,0,0,0.7);
+    border-top:1px solid #e100ff;
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<header>
+<h1>ROHAN JADHAV</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#education">Skills</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certifications</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>CYBERSECURITY PROFESSIONAL</h2>
+<div class="typing" id="typing"></div>
+</section>
+
+<section id="about" class="section">
+<h2>Professional Summary</h2>
+<div class="card">
+Certified Ethical Hacker (CEH) and Cybersecurity enthusiast with strong hands-on experience in penetration testing, vulnerability assessment, and network security. Skilled in identifying security weaknesses, analyzing attack vectors, and implementing defensive strategies. Possesses a solid foundation in programming, networking, and system security, supported by Cisco certifications.
+Passionate about securing digital infrastructures, ethical hacking, and solving real-world cybersecurity challenges.Passionate about ethical hacking and securing digital systems against modern cyber threats. Experienced in penetration testing, vulnerability assessment, and network security analysis. Skilled in identifying attack surfaces and implementing proactive security solutions.
+Continuously learning and exploring emerging cybersecurity technologies to build safer digital ecosystems.
+</div>
+</section>
+
+<section id="skills" class="section">
+<h2>Technical Skills</h2>
+<div class="card">
+<b>Cybersecurity:</b> Penetration Testing, Vulnerability Assessment, Network Security,
+Web Security, Information Gathering, Scanning & Enumeration, Malware Analysis Basics,
+Social Engineering Awareness
+</div>
+<div class="card">
+<b>Tools:</b> Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, Nessus,
+VirusTotal, Advanced IP Scanner, Gophish
+</div>
+<div class="card">
+<b>Programming:</b> Python, Java, C, SQL <br>
+<b>Databases:</b> MySQL, MongoDB <br>
+<b>Networking:</b> TCP/IP, DNS, HTTP/HTTPS, Git, GitHub
+</div>
+</section>
+
+<section id="projects" class="section">
+<h2>Major Projects</h2>
+<div class="card">
+<b>Adversarial AI Attack vs Defense Simulator</b><br>
+Designed AI attack simulations and implemented adversarial training & defense mechanisms.
+</div>
+<div class="card">
+<b>Bug Bounty Hunting</b><br>
+Identified misconfigurations, authentication flaws and input validation vulnerabilities.
+Prepared OWASP-aligned PoC reports.
+</div>
+<div class="card">
+<b>Decentralized Zero Trust Cloud Framework</b><br>
+Built identity-based authorization system enforcing least privilege access.
+</div>
+</section>
+
+<section id="certifications" class="section">
+<h2>Certifications</h2>
+<div class="card">
+Certified Ethical Hacker (CEH) – EC Council <br>
+Cisco Certification – Networking & System Security <br>
+ZENEXIS Solutions – MERN Stack <br>
+Ethical Hacking: Threats & Attack Vectors <br>
+HackerRank Problem Solving (Basic)
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<div class="card">
+Email: rajerohanjadhav@gmail.com <br>
+Mobile: +91 7204358089 <br>
+LinkedIn: https://linkedin.com/in/rohan-jadhav-588348359 <br>
+GitHub: https://github.com/rajerohanjadhav
+</div>
+</section>
+
+<footer>
+© 2026 Rohan Jadhav | Cybersecurity Specialist
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script>
+// Typing Effect
+const text="Certified Ethical Hacker | IoT & Cyber Security Including Blockchain Security ";
+let i=0;
+function typeEffect(){
+    if(i<text.length){
+        document.getElementById("typing").innerHTML+=text.charAt(i);
+        i++;
+        setTimeout(typeEffect,50);
+    }
+}
+typeEffect();
+
+// 3D Background
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000);
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('bg')});
+renderer.setSize(window.innerWidth,window.innerHeight);
+
+const geometry=new THREE.TorusKnotGeometry(10,3,100,16);
+const material=new THREE.MeshBasicMaterial({color:0x00f0ff,wireframe:true});
+const torus=new THREE.Mesh(geometry,material);
+scene.add(torus);
+
+camera.position.z=30;
+
+function animate(){
+requestAnimationFrame(animate);
+torus.rotation.x+=0.005;
+torus.rotation.y+=0.01;
+renderer.render(scene,camera);
+}
+animate();
+</script>
+
+</body>
+</html>
